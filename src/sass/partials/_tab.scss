@@ -1,0 +1,14 @@
+.tab-content{
+    background-color: white;
+    border-style: solid solid solid solid;
+    border-color: $gray-200;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.nav-tabs{
+    border: none;
+    margin-left: 15px;
+}
+button.nav-link{
+    border-radius: 10px;
+}

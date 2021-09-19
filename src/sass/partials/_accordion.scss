@@ -1,0 +1,23 @@
+@mixin gradient-radial($inner-color: $light, $outer-color: #F5F5F5) {
+    background-image: radial-gradient(circle, $inner-color, $outer-color);
+  }
+.accordion{
+    background-color: transparent;
+}
+
+.accordion-button{
+    color: $colour-primary;
+    font-family: $font-family-base;
+}
+.accordion-button:not(.collapsed){
+    background-color: white;
+    border-bottom: 1px solid $colour-primary;
+    color: $colour-primary;
+}
+.accordion-button::after{
+    display:none;
+}
+.accordion-collapse{
+    @include gradient-radial;
+}
+

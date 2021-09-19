@@ -1,0 +1,43 @@
+// custom
+$colour-input: white;
+$colour-primary: #E92569;
+$border-width: 1px;
+$light: white;
+$dark: $colour-primary;
+$body-color:white;
+
+// bootstrap
+$theme-colors: (
+    "primary": $colour-primary,
+    "dark": $colour-primary,
+);
+
+$gray-100: #EFEFEF;
+$gray-200: #C7C7C7;
+$gray-300: #767676;
+$gray-400: #E5E5E5;
+$gray-500: #0A0A0A;
+
+
+$input-bg: $colour-input;
+$input-border-color: $colour-input;
+$border-radius: 3px;
+
+$font-family-base: "Lato", sans-serif;
+$headings-font-family: "Playfair Display", serif;
+$headings-color: $colour-primary;
+
+
+$nav-tabs-border-color: $gray-200!default;
+$nav-tabs-link-active-border-color: $gray-200 $gray-200 white;
+
+$navbar-light-color: $gray-500;
+$navbar-light-active-color: $gray-500;
+$navbar-light-toggler-border-color: transparent;
+
+$link-hover-color:$gray-500;
+
+$form-label-color: $gray-300;
+$input-border-radius: 3px; 
+$input-color:  $gray-500;
+$form-check-label-color: $gray-300;

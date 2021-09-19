@@ -1,0 +1,13 @@
+
+.carousel-control-prev, .carousel-control-next{
+    display: none;
+}
+.carousel-indicators [data-bs-target]{
+        height: 30px;
+        width: 30px;
+        border-radius: 2px;
+        opacity: 100%;
+}
+.carousel-indicators .active{
+    background-color: $colour-primary;
+}

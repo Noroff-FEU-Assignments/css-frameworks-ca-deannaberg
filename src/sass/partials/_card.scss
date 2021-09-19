@@ -1,0 +1,19 @@
+.card {
+    width: 100%;
+    max-width: 264px; 
+    border-radius: 10px;
+}
+.card-img, .card-img-bottom{
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.card-img-top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card-img{
+    height: 190px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}

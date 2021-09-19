@@ -1,0 +1,28 @@
+.btn-group{
+    margin: 20px 0;
+}
+.btn-light{
+    background-color: $light;
+    color: $dark;
+    border: .5px solid $dark;
+}
+.btn-light:hover{
+    color: $light;
+    background-color: $dark;
+    opacity: 80%;
+}
+.btn-light.active{
+    background-color: $dark;
+    color: $light;
+}
+.btn-primary{
+    color: $light;
+}
+
+.btn-secondary{
+    background-color: $gray-300;
+    border-radius: 3px;
+}
+.btn-secondary:hover{
+    opacity: 90%;
+}
