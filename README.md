@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Your project title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-## Available Scripts
+A simple next.js application utilizing WP as a content management system with an admin log-in/log-out functionality. 
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+For this assigment I built a simple application in next.js, that uses a headless WP installation for content and authentication. 
+This assignment required me to 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Return an array of items with 2 properties
+- Link to a detail page for each item and display 3 properties
+- Create a contact form with validation
+- Create an Admin log-in form that makes a log-in request to Wordpress API with a JWT plugin installed.
+- Upon successfully logging-in, user is redirected to a user admin route. 
+- If log-in is unsuccessful, a message is displayed. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Built With
+- [Next.js](https://nextjs.org)
+- [Bootstrap](https://getbootstrap.com)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+- [React-Hook-Form](https://react-hook-form.com/)
+- [Moment.js](https://momentjs.com/)
+- [Axios](https://axios-http.com/)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installing
 
-### `npm run build`
+1. Clone the repo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install the dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install next react react-dom
+```
+```
+npm install react-bootstrap bootstrap
+```
+```
+npm install react-hook-form
+```
+```
+npm install yup
+```
+```
+npm install @hookform/resolvers
+```
+```
+npm install moment --save 
+```
+```
+npm install axios
+```
 
-### `npm run eject`
+### Running
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run the app, run the following commands:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contact
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[My LinkedIn page](https://www.linkedin.com/in/bergdeanna/)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
